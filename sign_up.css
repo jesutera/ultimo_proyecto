@@ -1,8 +1,14 @@
 body {
     margin: 0;
     padding: 0;   
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(-4665deg, #6c3483, #58D68D);
     } 
+
+    h1 {
+    color:rgba(128, 0, 128, 0.613);
+
+    }
     
 .mitadtexto{
     width: 50%;
@@ -12,7 +18,8 @@ body {
 .contenido{
     display: flex;
     width: 80%;
-    padding-top: 100px;
+    align-items: center;
+    padding-left: 38%;
 }
 
 .texto{
@@ -26,9 +33,9 @@ body {
     font-style: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
     background: linear-gradient(-48765435deg, #6c3483, #58D68D);
     border: 1px solid;
-    border-radius: 20px;
+    border-radius: 30px;
     padding: 20px;
-    box-shadow: 0 0 10px rgb(0, 255, 255);
+    box-shadow: 0 0 10px silver;
     max-width: 300px;
     width: 100%;
     text-align: center;
@@ -38,15 +45,21 @@ body {
     border-radius: 5px;
     font-size: 1em;
     padding: 5px;
-    width: 70%;
+    width: 98%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(127, 255, 212);
+    background-color: silver;
+}
+
+.links:hover {
+    color: cyan;
 }
 
 .botons {
     text-align: center;
+    font-size: 18px;
+    padding: 10px;
     border-radius: 20px;
     width: 50%;
     color: aqua;
