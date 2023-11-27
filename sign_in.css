@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background: linear-gradient(-4665deg, #6c3483, #58D68D);
     background-position: center;
     font-family: sans-serif;
     display: flex;
@@ -25,37 +26,45 @@ body {
     margin: 20px;
 }
 
+h2 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .inicio-estilo {
     font-style: serif;
-    border: 1px solid #2802ff;
-    background: dodgerblue;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 0 10px black;
+    border: 1px solid black;
+    background: linear-gradient(-145deg, #6c3483, #58D68D);
+
+    border-radius: 25px;
+    padding: 30px;
     max-width: 300px;
     width: 100%;
     text-align: center;
 }
 
 button {
-    border-radius: 10px;
+    border-radius: 20px;
     width: 100%;
+    font-size: 20px;
     padding: 10px;
-    background-color: rgb(26, 20, 48);
-    color: aqua;
+    background:cornflowerblue;
+    color: silver;
     cursor: pointer;
 }
 
 button:hover {
-    background: #2802ff;
+    background: linear-gradient(-48765435deg, #6c3483, #58D68D);
+    
 }
 
-.boton {
-    background-color: rgb(26, 20, 48);
+.link {
+    text-decoration: none;
 }
 
-.boton:hover {
-    background-color: rgb(0, 3, 155);
+.link:hover {
+    text-decoration: underline;
+    color:aqua
 }
 
 input[type="text"],
@@ -64,11 +73,11 @@ input[type="password"] {
     font-size: 1em;
     padding: 8px;
     width: 100%;
-    background-color: rgb(127, 255, 212);
+    background-color: silver;
 }
 
 h1 {
-    font-style: italic;
+    font-style:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; ;
     color: rgb(1, 0, 34);
     margin-top: 20px;
     font-size: 2em;

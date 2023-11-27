@@ -1,11 +1,9 @@
 body {
     margin: 0;
     padding: 0;   
-    font-family: sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
     } 
     
-
-
 .mitadtexto{
     width: 50%;
     height: 50%;
@@ -25,10 +23,10 @@ body {
 }
 
 .form_register {
-    font-style: italic;
-    background-color: rgba(2, 247, 255, 0.8);
-    border: 1px solid #2802ff;
-    border-radius: 10px;
+    font-style: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+    background: linear-gradient(-48765435deg, #6c3483, #58D68D);
+    border: 1px solid;
+    border-radius: 20px;
     padding: 20px;
     box-shadow: 0 0 10px rgb(0, 255, 255);
     max-width: 300px;
@@ -49,15 +47,22 @@ body {
 
 .botons {
     text-align: center;
-    border-radius: 10%;
+    border-radius: 20px;
     width: 50%;
-    background-color: rgb(26, 20, 48);
     color: aqua;
+    background: #6d348367;
     cursor: pointer;
 }
 
+a {
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline;
+}
 .botons:hover {
-    background: #2802ff;
+    background: linear-gradient(-48765deg, #6c3483, #58D68D);
+    
 }
 
  .boton{
