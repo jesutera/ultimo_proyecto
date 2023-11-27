@@ -67,3 +67,48 @@ input[type="password"] {
     background-color: rgb(127, 255, 212);
 }
 
+h1 {
+    font-style: italic;
+    color: rgb(1, 0, 34);
+    margin-top: 20px;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.contenido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media only screen and (min-width: 769px) {
+    .contenido {
+        flex-direction: row; 
+    }
+
+    .imagen2 {
+        order: 2; 
+        margin-top: 0; 
+    }
+}
+.boton a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 10px;
+    border-radius: 10%; 
+    background-color: rgb(26, 20, 48);
+    color: aqua;
+    cursor: pointer;
+}
+
+
+.boton a:focus {
+    background-color: rgb(0, 3, 155);
+    outline: none; 
+}
+
+.boton a:active {
+    transform: translateY(2px); 
+}
