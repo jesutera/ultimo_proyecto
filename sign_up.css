@@ -5,10 +5,9 @@ body {
     background: linear-gradient(-4665deg, #6c3483, #58D68D);
     } 
 
-    h1 {
+h1 {
     color:rgba(128, 0, 128, 0.613);
-
-    }
+}
     
 .mitadtexto{
     width: 50%;

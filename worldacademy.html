@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>World Academy of Dance</title>
+    <script src="validacion.js"></script>
     <link rel="stylesheet" href="worldacademy.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
 
     <div class="div_menu">
         <div>
-             <img src="images/logo.jpg" alt="" class="logo1" >
+             <img src="images/logo.jpg" alt="" class="logo2" >
            </div>
            <div>
                <ul class="lista">
-                   <img class="logo2" src="images/logo.jpg" alt="">
                    <li>
                        <a href="#Historía">Historía del baile</a>
                    </li>
@@ -22,37 +23,84 @@
                        <a href="#Inicio">¿Como iniciamos?</a>
                    </li>
                    <li>
-                       <a href="#galeria">Galería de imágenes</a>
-                   </li>
-                   <li>
                        <a href="#Contactos">Contactos</a>
                    </li>
                    <p id="saludo-usuario"></p>
                    <a href="sign_in.html" class="tu">Cerrar Sesión</a>
-
-                   <img class="logo2" src="images/logo.jpg" alt="">
-
                </ul>
            </div>
    </div>
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </body>
+<body>
+    <header>
+
+        <section id="Historía"></section>
+        <br>
+        <br>
+     <h2>Historía</h2>
+     <div class="div-p"><p>El origen del baile se ubica en la prehistoria, en donde solía tenía un carácter
+    espiritual, ya que se empleaba como parte de diferentes rituales y tradiciones que fueron transmitiéndose
+    de generación a generación. <br>
+    La danza o baile es llamada también como 'el lenguaje del cuerpo', y se vale de una secuencia de movimientos 
+    corporales que acompañan de manera rítmica a la música. <br>
+    Actualmente existen muchas danzas alrededor del mundo y en las diferentes culturas, cada una de ellas con
+     sus propias reglas y pasos que deben ser respetados para su ejecución. Además, requieren del entrenamiento
+      y de la cualidad particular de cada bailarín.</p></div>
+       <img class="tamaño" src="images/historia2.png" alt="">
+
+       <section id="Inicio"></section>
+         <br>
+         <br>
+          <h2>¿Como iniciamos?</h2>
+         <div class="div-p"> <p>Iniciar una empresa de baile puede ser un emocionante proyecto. Aquí tienes algunos ejemplos de cómo iniciamos nosotros como micro-empresa: <br> <br>
+            <b>1. Planifica tu concepto:</b> Define cuál será el enfoque de tu empresa de baile. Puedes ofrecer clases de distintos estilos de baile, organizar eventos, coreografiar espectáculos, entre otros. <br> <br>
+           <b> 2. Investigación de mercado: </b>Realiza un análisis detallado del mercado para identificar la demanda y la competencia en tu área. Esto te ayudará a entender las necesidades de tus potenciales clientes y a diferenciarte de la competencia. <br> <br>
+          <b> 3. Elabora un plan de negocios: </b> Crea un plan que incluya tus objetivos, estrategias de marketing, estructura de costos, proyecciones financieras y cualquier otro aspecto relevante para tu empresa. <br> <br>
+         <b> 4. Establece una ubicación:</b> Decide si tu empresa de baile tendrá un espacio físico o si funcionará de manera online. Si optas por un local, elige una ubicación accesible y adecuada para tus necesidades. <br> <br>
+        <b>5. Obtén los permisos necesarios:</b> Infórmate sobre los requisitos legales y obtén los permisos y licencias correspondientes para operar tu empresa de baile.</p>
+        <img class="tamaño" src="images/inicio.png" alt="">
+        </div>
+
+        
+        <section id="Contactos"></section>
+        <br>
+        <br>
+        <h2>Contactanos</h2>
+       
+    </header>
+    <footer>
+
+        <div class="footer-contenido">
+            <p class="E-C">&copy; 2023 World Academy of Dance-Internacional</p>
+            <div class="redes-sociales">
+                <a href="#" target="_blank">
+                    <div class="home-sci">
+                        <a href="https://www.facebook.com/profile.php?id=100070690676578&mibextid=ZbWKwL"><i class='bx bxl-facebook'></i></a>
+                        <a href="#"><i class='bx bxl-twitter'></i></a>
+                        <a href="https://instagram.com/jxsus_realxs?igshid=OGQ5ZDc2ODk2ZA=="><i class='bx bxl-instagram'></i></a>
+                    </div>
+                </a>
+               
+                <a href="#" target="_blank">
+                    
+                </a> 
+        </div>
+    </footer>
+
+    
+    <h2>Comentarios</h2>
+    <div id="comments"></div>
+
+<h3>regalanos tu comentario:</h3>
+<form id="commentForm">
+  <label for="name">Nombre:</label>
+  <input type="text" id="name" required><br><br>
+
+  <label for="comment">Comentario:</label><br>
+  <textarea id="comment" rows="4" cols="50" required></textarea><br><br>
+
+  <button type="submit" onclick="publicarComentario()">Enviar comentario</button>
+</form>
+ </body>
+ </html>
 </html>

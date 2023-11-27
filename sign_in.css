@@ -10,6 +10,11 @@ body {
     min-height: 100vh;
 }
 
+.imagen2 {
+    width: 100%;
+    height: auto;
+}
+
 .contenido {
     display: flex;
     flex-wrap: wrap;

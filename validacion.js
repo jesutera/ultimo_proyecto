@@ -65,3 +65,22 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 });
+
+//comeentarios
+//funcion para que se publiquen los comentarios
+function publicarComentario(){
+    document.getElementById("commentForm").addEventListener("submit", function(event) {
+        event.preventDefault();
+  
+        var name = document.getElementById("name").value;
+        var comment = document.getElementById("comment").value;
+  
+        var commentElement = document.createElement("div");
+        commentElement.innerHTML = "<strong>" + name + ":</strong> " + comment;
+  
+        document.getElementById("comments").appendChild(commentElement);
+  
+        document.getElementById("name").value = "";
+        document.getElementById("comment").value = "";
+      });
+}
